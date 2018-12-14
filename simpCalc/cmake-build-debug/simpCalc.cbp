@@ -8,78 +8,80 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug"/>
+				<Option working_dir="/Users/francescaattard/Desktop/B.Sc in Computing Science/CPS1010 - Collaboritve Project/Assignment 3/simpCalc/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="simpCalc">
-				<Option output="C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/simpCalc.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 simpCalc"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="simpCalc/fast">
-				<Option output="C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/simpCalc.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 simpCalc/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug"/>
+				<Option working_dir="/Users/francescaattard/Desktop/B.Sc in Computing Science/CPS1010 - Collaboritve Project/Assignment 3/simpCalc/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/francescaattard/Desktop/B.Sc in Computing Science/CPS1010 - Collaboritve Project/Assignment 3/simpCalc/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpCalc">
+				<Option output="/Users/francescaattard/Desktop/B.Sc in Computing Science/CPS1010 - Collaboritve Project/Assignment 3/simpCalc/cmake-build-debug/simpCalc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/francescaattard/Desktop/B.Sc in Computing Science/CPS1010 - Collaboritve Project/Assignment 3/simpCalc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 simpCalc"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpCalc/fast">
+				<Option output="/Users/francescaattard/Desktop/B.Sc in Computing Science/CPS1010 - Collaboritve Project/Assignment 3/simpCalc/cmake-build-debug/simpCalc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/francescaattard/Desktop/B.Sc in Computing Science/CPS1010 - Collaboritve Project/Assignment 3/simpCalc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 simpCalc/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/francescaattard/Desktop/B.Sc\ in\ Computing\ Science/CPS1010\ -\ Collaboritve\ Project/Assignment\ 3/simpCalc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/matth/CLionProjects/Collab/simpCalc/main.c">
+		<Unit filename="/Users/francescaattard/Desktop/B.Sc in Computing Science/CPS1010 - Collaboritve Project/Assignment 3/simpCalc/main.c">
 			<Option target="simpCalc"/>
 		</Unit>
-		<Unit filename="C:/Users/matth/CLionProjects/Collab/simpCalc/CMakeLists.txt">
+		<Unit filename="/Users/francescaattard/Desktop/B.Sc in Computing Science/CPS1010 - Collaboritve Project/Assignment 3/simpCalc/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

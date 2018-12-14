@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/matth/CLionProjects/Collab/simpCalc
+# Install script for directory: /Users/francescaattard/Desktop/B.Sc in Computing Science/CPS1010 - Collaboritve Project/Assignment 3/simpCalc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/simpCalc")
+  set(CMAKE_INSTALL_PREFIX "/usr/local")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/francescaattard/Desktop/B.Sc in Computing Science/CPS1010 - Collaboritve Project/Assignment 3/simpCalc/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

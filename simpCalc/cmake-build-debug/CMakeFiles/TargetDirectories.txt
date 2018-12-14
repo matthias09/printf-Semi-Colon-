@@ -1,3 +1,3 @@
-C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/CMakeFiles/simpCalc.dir
-C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/francescaattard/Desktop/B.Sc in Computing Science/CPS1010 - Collaboritve Project/Assignment 3/simpCalc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/francescaattard/Desktop/B.Sc in Computing Science/CPS1010 - Collaboritve Project/Assignment 3/simpCalc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/francescaattard/Desktop/B.Sc in Computing Science/CPS1010 - Collaboritve Project/Assignment 3/simpCalc/cmake-build-debug/CMakeFiles/simpCalc.dir

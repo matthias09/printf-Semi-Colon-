@@ -1,11 +1,11 @@
-"C:\Program Files\JetBrains\CLion 2018.2.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\matth\CLionProjects\Collab\simpCalc
--- The C compiler identification is GNU 6.3.0
--- Check for working C compiler: C:/MinGW/bin/gcc.exe
--- Check for working C compiler: C:/MinGW/bin/gcc.exe -- works
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/gcc -G "CodeBlocks - Unix Makefiles" "/Users/francescaattard/Desktop/B.Sc in Computing Science/CPS1010 - Collaboritve Project/Assignment 3/simpCalc"
+-- The C compiler identification is AppleClang 10.0.0.10001044
+-- Check for working C compiler: /usr/bin/gcc
+-- Check for working C compiler: /usr/bin/gcc -- works
 -- Detecting C compiler ABI info
 -- Detecting C compiler ABI info - done
 -- Detecting C compile features
 -- Detecting C compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/matth/CLionProjects/Collab/simpCalc/cmake-build-debug
+-- Build files have been written to: /Users/francescaattard/Desktop/B.Sc in Computing Science/CPS1010 - Collaboritve Project/Assignment 3/simpCalc/cmake-build-debug

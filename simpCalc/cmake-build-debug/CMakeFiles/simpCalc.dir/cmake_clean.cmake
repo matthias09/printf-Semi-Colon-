@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/simpCalc.dir/main.c.obj"
+  "CMakeFiles/simpCalc.dir/main.c.o"
   "simpCalc.pdb"
-  "simpCalc.exe"
-  "simpCalc.exe.manifest"
-  "libsimpCalc.dll.a"
+  "simpCalc"
 )
 
 # Per-language clean rules from dependency scanning.
